@@ -57,7 +57,7 @@ contract Voters {
 
   constructor(){
     string memory hsh="";
-    address addr=0x72f349FaC66f853068857e4DC13ac605160302AF;
+    address addr=0x...;
     userlist.push(User(0,"","","",collisionHash(hsh),'0','',true));
     voterList.push(userlist[0]);
     UserRole[0]=true;
